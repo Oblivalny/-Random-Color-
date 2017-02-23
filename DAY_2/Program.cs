@@ -24,7 +24,11 @@ namespace DAY_2
         {
             for (int i = 0; i < arr.Length; i++)
             {
+                Console.ForegroundColor = ConsoleColor.Green; // устанавливаем цвет
+                
                 Console.WriteLine("Элимент №{0}: {1}",i,arr[i]);
+                
+                Console.ResetColor();// отключить цвет 
             }
 
         }
